@@ -3,7 +3,7 @@ n=int(input().strip())
 if n%2==0:
     if n in range(2,6):
         print('Not Weird')
-elif(n>=6 and n<=20)):
+elif(n>=6 and n<=20):
     print('Not Weird')
 elif((n%2==0) and (n>20)):
     print('Not Weird')
