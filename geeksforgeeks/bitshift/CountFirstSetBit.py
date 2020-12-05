@@ -1,6 +1,6 @@
 import math
 
-from geeksforgeeks.bitshift.GetNumber import getFirstNumber
+from geeksforgeeks.util.GetNumber import getFirstNumber
 
 n = getFirstNumber()
 
