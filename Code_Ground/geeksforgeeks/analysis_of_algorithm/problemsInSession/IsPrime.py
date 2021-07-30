@@ -1,4 +1,5 @@
-from geeksforgeeks.util.GetNumber import getFirstNumber
+from Code_Ground.geeksforgeeks.util.GetNumber import getFirstNumber
+
 
 n = getFirstNumber()
 i = 5

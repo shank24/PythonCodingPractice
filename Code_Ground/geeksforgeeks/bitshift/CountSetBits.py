@@ -1,4 +1,4 @@
-from geeksforgeeks.util.GetNumber import *
+from Code_Ground.geeksforgeeks.util.GetNumber import *
 
 n = getFirstNumber()
 

@@ -1,6 +1,6 @@
 import math
 
-from geeksforgeeks.util.GetNumber import *
+from Code_Ground.geeksforgeeks.util.GetNumber import *
 
 m = getFirstNumber()
 n = getSecondNumber()
