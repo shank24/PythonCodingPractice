@@ -25,4 +25,6 @@ print (int(var4)+var2)
 
 print(5 * "Hello \n")
 
-
+#User Input
+num = input("Enter a Number")
+print(num)
