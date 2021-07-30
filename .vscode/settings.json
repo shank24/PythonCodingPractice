@@ -1,6 +1,6 @@
 {
     "python.testing.pytestArgs": [
-        "."
+        "Code_With_Harry"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
