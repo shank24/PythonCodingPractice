@@ -24,4 +24,25 @@ print(str[:5])
 #prints the whole string.
 print(str[0:])
 
+#prints the whole string, with the gap of 1. [0:19:1] [Like this]
+print(str[::])
+
 print(len(str))
+
+
+#Negative Indices
+
+#Printing from backwards
+print(str[-4:])
+print(str[-4:-2])
+
+#String Reverse 
+print(str[::-1])
+
+#String Reverse with 1 Char Gap 
+print(str[::-2])
+
+#String Reverse with 2 Char Gap 
+print(str[::-3])
+
+
