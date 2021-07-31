@@ -30,4 +30,29 @@ print(max(numbers))
 numbers.append(99)
 print(numbers)
 
+numbers.insert(1,55)
+print(numbers)
 
+numbers.remove(5)
+print(numbers)
+
+numbers.pop()
+print(numbers)
+
+#List is Mutable - can change
+numbers [1] = 67
+print(numbers)
+
+#Tuple is Immutable - cannot change
+tp = (1,3,5,6,7,8,9,10,11,12,13,14,15)
+print(tp)
+
+#tp[1] = 45
+#print(tp) - Cannot Change.
+
+#Swapping 
+a=10
+b=12
+a,b = b,a
+
+print(a,b)
