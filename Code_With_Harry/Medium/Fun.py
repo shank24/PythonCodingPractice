@@ -12,6 +12,7 @@ def function1(a,b):
 function1(2,3)
 
 def function2(a,b):
+    """This function is called when we need to calculate the average"""
     average = (a+b)/2
     print(average)
     return average
@@ -19,3 +20,4 @@ def function2(a,b):
 value = function2(10,20)
 
 print (value)
+print (function2.__doc__)
