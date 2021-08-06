@@ -1,20 +1,22 @@
-a = int(input('Enter First Number'))
-b = int(input('Enter Second Number'))
-op = raw_input('Enter the operator')
+class Cal:
 
-def operation(a,b):
-    if op == '+':
-        return a + b
-    elif op == '-':
-        if a>b:
-            return a - b
-        else:
-            return b - a
-    elif op =='*':
-        return a * b
-    else:
-        return a/b
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+
+    def sum(self):
+        return self.a + self.b
+    def sub(self):
+        return self.a - self.b
+    def mul(self):
+        return self.a * self.b
+    def div(self):
+        return self.a/self.b
     
-print(operation(a,b))
+#print(operation(a,b))
 
-
+ob = Cal(4,5)
+print(ob.sub())
+print(ob.sum())
+print(ob.mul())
+print(ob.div())
