@@ -20,3 +20,4 @@ for l in dict1:
 #Only Values
 for l in dict1.values():
     print (l)
+
