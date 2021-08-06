@@ -6,8 +6,8 @@ class Calculator:
     #Default constructor    
     def __init__(self,a,b):
         #Instance variables
-        self.a = a
-        self.b = b
+        self.a = int(input('Enter a number'))
+        self.b = int(input('Enter a number'))
         print("Object is Created automatically")
 
     def getData(self):
@@ -16,12 +16,12 @@ class Calculator:
     def Summation(self):
         return self.a + self.b + self.num
 
-ob = Calculator(2,3)
+ob = Calculator(0,0)
 #print(ob.getData())
 print(ob.Summation())
 print(ob.num)
 
-ob1 = Calculator(4,5)
+ob1 = Calculator(0,0)
 #print(ob1.getData())
 print(ob1.Summation())
 print(ob1.num)
