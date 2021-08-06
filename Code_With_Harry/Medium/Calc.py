@@ -1,4 +1,6 @@
 class Calculator:
+#Self keyword is mandatory for calling variable names into method.
+#instance and class variables have diff purpose
 
     #class variables
     num=100
