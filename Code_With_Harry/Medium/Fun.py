@@ -3,7 +3,7 @@ b = 80
 
 #Built In Function
 c = sum((a,b))
-print c
+print (c)
 
 #User Defined Function
 def function1(a,b):
