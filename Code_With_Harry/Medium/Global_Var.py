@@ -24,3 +24,5 @@ def fun1():
     print("After calling fun2()",x)
         
 fun1()
+#Now global variable created the variable outside
+print(x)
