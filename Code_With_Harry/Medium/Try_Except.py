@@ -1,6 +1,6 @@
 #Exception demonstration
-num1 = raw_input()
-num2 = raw_input()
+num1 = input()
+num2 = input()
 
 try:
     print("The sum is", int(num1)+int(num2))
