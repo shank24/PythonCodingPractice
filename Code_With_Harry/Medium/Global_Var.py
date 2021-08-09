@@ -14,6 +14,7 @@ function("Calling function")
 
 
 #Global always look out for out of function declarations.
+x=123
 def fun1():
     x=20
     def fun2():
