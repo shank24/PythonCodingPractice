@@ -1,7 +1,11 @@
+#Global Scope
 l=10
 
 def function(n):
-    l=6
+    #Local Scope
+    #l=6
+    global l
+    l = l+50
     m=9
     print(m,l)
     print(n,"Via Function")
