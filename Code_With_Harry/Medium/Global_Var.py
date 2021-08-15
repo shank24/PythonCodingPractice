@@ -20,6 +20,7 @@ def fun1():
     def fun2():
         global x
         x=90
+        print(x)
     print("Before calling fun2()",x)
     fun2()
     print("After calling fun2()",x)
