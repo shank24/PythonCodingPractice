@@ -12,5 +12,5 @@ print(b)
 
 
 #F Strings
-c = f"This is {f_name} {l_name}"
-print(c)
+#c = f"This is {f_name} {l_name}"
+#print(c)
