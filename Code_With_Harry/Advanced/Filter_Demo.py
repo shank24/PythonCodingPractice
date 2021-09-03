@@ -13,7 +13,7 @@ print (gr_than_5)
 
 from functools import reduce
 
-list_2 = [1, 2, 3, 4, 5]
+list_2 = [1, 2, 3, 4, 5, 6, 7]
 
 num = reduce(lambda x,y:x*y,list_2)
 
