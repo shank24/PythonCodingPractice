@@ -15,7 +15,7 @@ class Employee:
         cls.leaves = newleaves
     
     @classmethod
-    def from_str(cls,string):
+    def from_dash(cls,string):
         # params = string.split("-")
         # return cls(params[0],params[1],params[2])
         return cls(*string.split("-"))
@@ -23,7 +23,7 @@ class Employee:
 
 harry = Employee("Harry", 455, "Coder")
 rohan = Employee("Rohan", 466, "Ultra Coder")
-cherry = Employee.from_str("Cherry-345-Student")
+cherry = Employee.from_dash("Cherry-345-Student")
 
 
 Employee.set_Leaves(33)
