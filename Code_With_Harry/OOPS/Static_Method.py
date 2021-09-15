@@ -39,3 +39,4 @@ print(rohan.printDetails())
 print(cherry.printDetails())
 
 print(harry.printgood("Jerry")) 
+print(Employee.printgood("Emp")) 
