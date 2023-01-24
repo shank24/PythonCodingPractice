@@ -20,3 +20,6 @@ print(s[15::-1])
 #Strip Function
 s2="  You are awesome  "
 print(s.strip())
+
+val = raw_input ("Enter a string\n")
+print(val)
