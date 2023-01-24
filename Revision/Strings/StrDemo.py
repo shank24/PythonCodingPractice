@@ -16,3 +16,7 @@ print(s[-4:-1])
 print(s[0:15:1])
 #Reverse a String
 print(s[15::-1])
+
+#Strip Function
+s2="  You are awesome  "
+print(s.strip())
