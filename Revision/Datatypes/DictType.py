@@ -10,3 +10,4 @@ print(dict1.items())
 
 del dict1[1]
 print(dict1)
+
