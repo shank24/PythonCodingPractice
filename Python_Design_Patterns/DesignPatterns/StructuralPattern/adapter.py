@@ -33,7 +33,7 @@ class Adapter:
             return getattr(self._object, attr)
 
 
-# List to store speaker objects
+# Datatypes to store speaker objects
 objects = []
 
 # Create a Korean object

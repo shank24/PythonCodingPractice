@@ -1,4 +1,4 @@
-#List Demo
+#Datatypes Demo
 grocery = ["Harpic", "Deo", "Perfume"]
 
 print(grocery)
@@ -39,7 +39,7 @@ print(numbers)
 numbers.pop()
 print(numbers)
 
-#List is Mutable - can change
+#Datatypes is Mutable - can change
 numbers [1] = 67
 print(numbers)
 

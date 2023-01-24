@@ -1,4 +1,4 @@
-#List Example
+#Datatypes Example
 countries=["India", "Canada", "USA"]
 print(countries)
 

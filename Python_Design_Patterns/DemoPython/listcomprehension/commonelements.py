@@ -10,7 +10,7 @@ for i in a:
 
 print(result)
 
-#Using List Comprehensions
+#Using Datatypes Comprehensions
 
 result=[i for i in a if i in b]
 

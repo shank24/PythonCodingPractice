@@ -24,7 +24,7 @@ print(lst)
 
 print(sorted(lst))
 
-#Reverse A List
-print('List In Reverse Order - Descending')
+#Reverse A Datatypes
+print('Datatypes In Reverse Order - Descending')
 lst.sort(reverse=True)
 print(lst)

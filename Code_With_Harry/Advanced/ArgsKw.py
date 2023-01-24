@@ -9,7 +9,7 @@ def funargs(normal, *args, **kwargs):
     print(normal)
     print(type(args))
 
-    print("List")
+    print("Datatypes")
     for item in args:
         print(item)
 
