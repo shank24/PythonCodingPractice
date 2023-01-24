@@ -8,8 +8,11 @@ lst.sort()
 print(lst)
 lst.append(34)
 print(lst)
-del([lst[1]])
+print("Deletion")
+del(lst[1])
+
 print(lst)
+
 print(max(lst))
 print(min(lst))
 lst.sort(reverse=True)
