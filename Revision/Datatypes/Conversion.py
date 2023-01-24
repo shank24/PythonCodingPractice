@@ -12,5 +12,8 @@ print(set)
 tup1=tuple(set)
 print(tup1)
 
-dict={'1':122,'2':123,'3':'124'}
+dict={1:122,2:123,3:124}
 print(dict)
+
+
+print(dict.get(2))
