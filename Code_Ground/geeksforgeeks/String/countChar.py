@@ -8,4 +8,5 @@ for c in s:
         d[c] = 1
 
 for k,v in d.items():
-    print(k,"Key Is", v, " Times")
+    #print(k,"Key Is", v, " Times")
+    print('{}={} times'.format(k, v))

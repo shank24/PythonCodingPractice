@@ -6,4 +6,5 @@ for c in word:
     if c in vowels:
         result[c] = result.get(c, 0) + 1
 for k,v in result.items():
-    print(k,"is present :" , v , " Times")
+    print('{}={} times'.format(k,v))
+    #print(k,"is present :" , v , " Times")
