@@ -20,12 +20,14 @@ str="Paragraphs are the building blocks of papers. " \
     "because it controls what happens in the rest of the paragraph."
 
 x = re.search(r"\w{9}", str)
-exact_word=re.search(r"paragraph",str)
 print(x.group())
+
+exact_word=re.search(r"paragraph",str)
 print(exact_word.group())
 
-findEx=re.findall('Paragraph',str)
+findEx=re.findall(r'\ba',str)
 print(findEx)
+print(len(findEx))
 
 
 #Find By Boundary For Paragraph
