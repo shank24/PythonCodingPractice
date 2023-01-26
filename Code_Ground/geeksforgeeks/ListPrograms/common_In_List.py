@@ -7,3 +7,15 @@ for i in range(len(lst1)):
         z.append(lst1[i])
 
 print(z)
+
+u=[]
+for i in lst1:
+    if i in lst2:
+        u.append(i)
+
+print(u)
+
+#list comprehension
+
+res=[i for i in lst1 if i in lst2]
+print(res)
